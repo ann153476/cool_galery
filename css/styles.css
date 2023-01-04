@@ -1,0 +1,119 @@
+body{
+  color:#212121;
+  background-color: #f2d0d0;
+  font-size: 20px;
+  line-height: 1.14;/*16px*/
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p,ul,img,div{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a{
+  text-decoration:none; 
+  color: #212121;  
+}
+ul{
+  list-style: none;
+}
+h1{
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container{
+  padding: 1vw 10vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+      .years{
+        display: flex;
+        justify-content: space-around;
+      }
+      .years button{
+        border: none;
+        background-color: transparent;
+      }
+      .years a{
+        padding: 5px;
+        background-color: rgb(235, 135, 136);
+        border-radius: 12px;
+        border: none;
+        font-size: 3vw;
+      }
+      
+      .act:visited{
+        background-color: blueviolet;
+      }
+      .swiper {
+        background-color: red;
+        width: 70vw;
+        height: 70vh;
+      }
+      .swiper-slide{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+      }
+      /*.swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: transparent;
+      }/*
+      .swiper-slide:nth-child(2n) {
+        background-image: url(../img/1.jpg);
+
+      }
+
+      .swiper-slide:nth-child(3n) {
+        background-image: url(../img/2.jpg);
+
+      }
+
+      .swiper-slide:nth-child(4n) {
+        background-image: url(../img/3.jpg);
+
+      }
+
+      .swiper-slide:nth-child(5n) {
+        background-image: url(../img/4.jpg);
+
+      }
+
+      .swiper-slide:nth-child(6n) {
+        background-image: url(../img/5.jpg);
+
+      }
+
+      .swiper-slide:nth-child(7n) {
+        background-image: url(../img/6.jpg);
+
+      }
+
+      .swiper-slide:nth-child(8n) {
+        background-image: url(../img/7.jpg);
+
+      }
+
+      .swiper-slide:nth-child(9n) {
+        background-image: url(../img/8.jpg);
+
+      }
+
+      .swiper-slide:nth-child(10n) {
+        background-image: url(../img/9.jpg);
+
+      } */
+      
