@@ -1,6 +1,11 @@
 body{
   color:#212121;
-  background-color: #f2d0d0;
+  background-color:  rgb(91, 85, 85);
+  /* background-image: radial-gradient( circle at center, 
+  rgb(245, 245, 245) ,
+   rgb(168, 168, 188), 
+   rgb(91, 85, 85)); */
+  background-repeat: no-repeat;
   font-size: 20px;
   line-height: 1.14;/*16px*/
   letter-spacing: 0.02em;
@@ -13,8 +18,12 @@ h1, h2, h3, h4, h5, h6, p,ul,img,div{
 }
 img{
   display: block;
+  margin: auto;
+  /* max-width: 100%;
+  max-height: 100%; */
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit:contain;
 }
 a{
   text-decoration:none; 
@@ -54,9 +63,9 @@ h1{
         background-color: blueviolet;
       }
       .swiper {
-        background-color: red;
-        width: 70vw;
+        max-width: 70vw;
         height: 70vh;
+        
       }
       .swiper-slide{
         background-color: transparent;
